@@ -60,4 +60,5 @@ public function update(Request $request, $id)
 
     return redirect()->back()->with('success', 'Article modifié avec succès');
 }
+
 }
