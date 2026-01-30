@@ -33,8 +33,8 @@
         </div>
 
         <div class="flex items-center justify-end mt-4">
-            <div class="flex items-center justify-between mt-4">
-    <a class="underline text-sm text-gray-600 hover:text-gray-900"
+            <div class="flex justify-center mt-4">
+    <a class="underline text-sm text-gray-600 hover:text-gray-900 mr-6"
        href="{{ route('register') }}">
         {{ __('Create a new account') }}
     </a>
@@ -46,7 +46,6 @@
         </a>
     @endif
 </div>
-
 
             <x-primary-button class="ms-3">
                 {{ __('Log in') }}

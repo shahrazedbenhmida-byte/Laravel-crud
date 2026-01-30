@@ -90,7 +90,8 @@
         .dataTables_wrapper {
             margin-top: 20px;
         }
-        
+
+
     </style>
 
 </head>
@@ -117,7 +118,7 @@
           <label class="mt-2">Catégorie</label>
           <input type="text" name="categorie" class="form-control" required>
 
-          <label class="mt-2">Prix</label>
+          <label class="mt-2">Prix (dt)</label>
           <input type="number" step="0.01" name="prix" class="form-control" required>
         </div>
 
@@ -146,7 +147,7 @@
             <th>ID</th>
             <th>Titre</th>
             <th>Catégorie</th>
-            <th>Prix</th>
+            <th>Prix (dt)</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -189,7 +190,7 @@
           <input type="text" name="titre" class="form-control" value="{{ $article->titre }}"><br>
           <label>Catégorie :</label>
           <input type="text" name="categorie" class="form-control" value="{{ $article->categorie }}"><br>
-          <label>Prix :</label>
+          <label>Prix (dt):</label>
           <input type="number" step="0.01" name="prix" class="form-control" value="{{ $article->prix }}">
         </div>
         <div class="modal-footer">
